@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #222;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+header {
+  background-color: #2563eb;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+main {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px;
+}
+
+.content-box,
+.tool-box {
+  background-color: white;
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+button {
+  padding: 12px 18px;
+  margin: 8px;
+  border: none;
+  border-radius: 8px;
+  background-color: #2563eb;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1e40af;
+}
+
+/* DARK MODE */
+
+.dark-mode {
+  background-color: #111;
+  color: white;
+}
+
+.dark-mode header {
+  background-color: black;
+}
+
+.dark-mode .content-box,
+.dark-mode .tool-box {
+  background-color: #222;
+  color: white;
+}
+
+/* HIGH CONTRAST */
+
+.high-contrast {
+  background-color: black;
+  color: yellow;
+}
+
+.high-contrast header {
+  background-color: black;
+  color: yellow;
+}
+
+.high-contrast .content-box,
+.high-contrast .tool-box {
+  background-color: black;
+  color: yellow;
+  border: 3px solid yellow;
+}
+
+.high-contrast button {
+  background-color: yellow;
+  color: black;
+  font-weight: bold;
+}

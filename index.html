@@ -1,0 +1,66 @@
+<!<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Accessibility Tool</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <header>
+    <h1>AccessEase</h1>
+    <p>A simple accessibility tool for visually impaired users.</p>
+  </header>
+
+  <main id="mainContent">
+
+    <section class="content-box">
+      <h2>Welcome to AccessEase</h2>
+
+      <p>
+        This tool helps users increase text size,
+        use dark mode,
+        switch to high contrast mode,
+        and listen to page content.
+      </p>
+    </section>
+
+    <section class="tool-box">
+
+      <h2>Accessibility Controls</h2>
+
+      <button onclick="increaseText()">
+        Increase Text
+      </button>
+
+      <button onclick="decreaseText()">
+        Decrease Text
+      </button>
+
+      <button onclick="toggleDarkMode()">
+        Dark Mode
+      </button>
+
+      <button onclick="toggleContrast()">
+        High Contrast
+      </button>
+
+      <button onclick="readText()">
+        Read Text
+      </button>
+
+      <button onclick="stopReading()">
+        Stop Reading
+      </button>
+
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
